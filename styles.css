@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face');
+@import url('https://fonts.googleapis.com/css2?family=Lemon');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #4e4e50;
+}
+header {
+    background: #1a1a1d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 75px;
+    color: #ffffff;
+    font-family: 'Freckle Face', sans-serif;
+}
+
+
+.scoreboard {
+margin: 30px auto;
+border: 10px solid #1a1a1d;
+border-radius: 15px;
+text-align: center;
+width: 200px;
+color: #c3073f;
+font-size: 60px;
+padding: 15px 15px;
+font-family: 'Luckiest Guy', sans-serif;
+position: relative;
+}
+
+.badge {
+    background: #ff0000;
+    color: #edf5e1;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+#user {
+    position: absolute;
+    top: 35px;
+    left: -28px;
+    border-radius: 50%;
+}
+#computer {
+    position: absolute;
+    top: 35px;
+    right: -33px;
+    border-radius: 50%;
+}
+.result {
+    color:  #c3073f;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+#Rock:hover {
+    cursor: pointer;
+    background-color: #4e4e50;
+    padding: 20px;
+    margin: 0 20px;
+    
+}
+#Paper:hover {
+    cursor: pointer;
+    background-color: #4e4e50;
+    padding: 20px;
+    margin: 0 20px;
+}
+#Scissors:hover {
+    cursor: pointer;
+    background-color: #4e4e50;
+    padding: 20px;
+    margin: 0 20px;
+}
+.options {
+    margin: 25px;
+    display: inline-block;
+    border: 6px solid rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.option {
+    text-align: center;
+    
+}
+.win-glow {
+    border: 10px solid rgb(0, 250, 0);
+    box-shadow: 0 0 30px rgb(0, 255, 0);
+}
+.lose-glow {
+    border: 5px solid red;
+    box-shadow: 0 0 30px red;
+}
+.draw-glow {
+    border: 5px solid rgba(134, 134, 134, 0.973);
+    box-shadow: 0 0 30px rgb(211, 211, 211);
+}
+ 
