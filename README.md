@@ -1,3 +1,3 @@
-# Rock-Paper-Scissors
+# Rock-Paper-Scissors By Vraj Bhavsar
 
-Play against a Computer to see who is the better player!
+Play a game of Rock Paper Scissors against the computer to see who is the man of the match!
